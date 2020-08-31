@@ -1,4 +1,4 @@
-# meat
+# Meat-LandingPage
 
 ## Project setup
 ```

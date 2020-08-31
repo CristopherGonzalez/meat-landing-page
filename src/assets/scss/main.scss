@@ -1,0 +1,31 @@
+
+.slidein{
+    animation-duration: 2s;
+    animation-name:slidein;
+}
+.slideup{
+    animation-duration: 2s;
+    animation-name:slideup;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes slideup {
+    from {
+      margin-top: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
