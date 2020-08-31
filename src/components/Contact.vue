@@ -2,7 +2,7 @@
   <v-container>
     <v-form ref="form">
       <v-row class="text-center" justify="center">
-        <v-col cols="8" class="mb-4">
+        <v-col cols="12" class="mb-4">
           <Title title="Contáctanos"></Title>
         </v-col>
         <v-col xs="12" md="5">
@@ -22,7 +22,7 @@
         <v-col xs="12" md="5">
           <v-text-field v-model="form_contact.phone" :rules="phoneRules" label="TELEFONO" required></v-text-field>
         </v-col>
-        <v-col xs="12"  md="6" justify-end class="text-end">
+        <v-col xs="12" md="6" justify-end class="text-end">
           <v-btn rounded class="pa-5" color="warning" @click="SubscribeNewsletter">Enviar</v-btn>
         </v-col>
       </v-row>
@@ -94,3 +94,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.v-btn:hover {
+  background-color: #009cd9 !important;
+}
+</style>

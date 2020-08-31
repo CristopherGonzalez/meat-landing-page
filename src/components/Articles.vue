@@ -2,13 +2,12 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12" class="mb-4">
-        <Title title="Nuestros articulos"></Title>
+        <Title title="Nuestros artículos"></Title>
       </v-col>
       <v-col class="mb-5" xs="12" md="3">
-        <v-list class="ml-2" max-width="300" rounded="">
+        <v-list class="ml-2" max-width="300" rounded>
           <v-list-item-group v-model="option_select" color="warning">
             <v-list-item v-for="(option, i) in options" :key="i">
-              
               <v-list-item-content>
                 <v-list-item-title v-text="option.category"></v-list-item-title>
               </v-list-item-content>

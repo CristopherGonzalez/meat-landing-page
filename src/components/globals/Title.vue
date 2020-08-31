@@ -1,9 +1,9 @@
 <template>
   <v-container fluid>
     <v-row justify="center">
-      <v-col md="8" xs="12">
-        <h1 class="display-2 font-weight-bold mb-n16">{{title}}</h1>
-        <v-img :src="require('@/assets/img/heading-shape.png')" class="mt-n16" />
+      <v-col xs="12" md="8" >
+        <h1 class="font-weight-bold mb-n8 display-2">{{title}}</h1>
+        <v-img :src="require('@/assets/img/heading-shape.png')" class="mt-n10 image-title" height="60" />
       </v-col>
     </v-row>
   </v-container>
@@ -17,13 +17,12 @@ export default {
   },
 };
 </script>
+
 <style scoped>
-h1{
-  z-index: 1;
-}
-.v-image {
+.image-title{
   opacity: 0.3;
   z-index: 1;
   margin: auto;
+  width: 60%;
 }
 </style>
